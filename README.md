@@ -4,24 +4,25 @@ A function that returns the two numbers that add up to a target in any given arr
 <table>
     <thead>
       <tr>
-        <th>words</th>
-        <th>transform to</th>
-        <th>keepUpperCase is false</th>
-        <th>keepUpperCase is true</th>
+        <th>Approach</th>
+        <th>O(N)<sup>2</sup></th>
+        <th>Space Complexity</th>
       </tr>
     </thead>
     <tbody>
         <tr>
-            <td>"XML HTTP request"</td>
+            <td>Brute Force</td>
             <td>pascalCase</td>
             <td><code>XmlHttpRequest</code></td>
-            <td><code>XMLHTTPRequest</code></td>
-        </tr>
         <tr>
-            <td>"new customer ID"</td>
+            <td>Binary Search</td>
             <td>camelCase</td>
             <td><code>newCustomerId</code></td>
-            <td><code>newCustomerID</code></td>
+        </tr>
+        <tr>
+            <td>Hash Map</td>
+            <td>camelCase</td>
+            <td><code>newCustomerId</code></td>
         </tr>
     </tbody>
   </table>
